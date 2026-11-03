@@ -32,9 +32,15 @@ Erros: 400 (validação) e 404 (não encontrado).
 
 ## Como rodar
 
-Defina as variáveis de ambiente `DB_USER` e `DB_PASSWORD` e execute:
-
-    ./mvnw spring-boot:run
+No seu IntelliJ:
+1. Clique na setinha ao lado de CalculadoraCo2Application (na barra superior, onde você marcou).
+2. No menu que abrir, clique em Edit Configurations....
+3. Selecione CalculadoraCo2Application.
+4. Procure Environment variables.
+5. Clique no ícone de edição.
+6. Configure DB_USER e DB_PASSWORD com suas credenciais.
+7. Clique em Apply e depois em OK.
+8. e execute: ./mvnw spring-boot:run
 
 ## Deploy
 
